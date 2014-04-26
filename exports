@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+export PATH=/Applications/Racket\ v6.0/bin:$PATH
+export PATH=/usr/local/bin:$PATH

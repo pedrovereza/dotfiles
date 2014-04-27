@@ -3,7 +3,6 @@
 DOTFILES_HOME=$(cd `dirname ${BASH_SOURCE[0]}`; pwd)
 PATH="$DOTFILES_HOME/bin:$PATH"
 
-source "$DOTFILES_HOME/exports"
 source "$DOTFILES_HOME/lib/dotfiles"
 
 load

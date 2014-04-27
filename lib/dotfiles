@@ -11,7 +11,7 @@ _source_all_files_in () {
 }
 
 load () {
-	for dir in 'alias' 'completion' 'colors' 'jump'; do
+	for dir in 'alias' 'completion' 'colors' 'tools'; do
 		_source_all_files_in $dir
 	done
 }

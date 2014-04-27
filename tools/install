@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+_export_path() {
+	if [ -d "$1" ]; then
+		export PATH="$1":$PATH
+	fi
+}
+
+_source() {
+	if [ -f "$1" ]; then
+		source ${HOME}/$1
+	fi
+}
+
+_export_path /Applications/Racket\ v6.0/bin
+_export_path /usr/local/bin
+_source tools/z/z.sh

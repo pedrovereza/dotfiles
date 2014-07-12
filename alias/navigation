@@ -1,2 +1,4 @@
 alias ls='ls -G'
 alias ll='ls -l -G'
+alias ff='find . -type f -name'
+alias fd='find . -type d -name'

@@ -1,0 +1,14 @@
+[alias]
+	st = status
+	co = checkout
+	aa = add -A
+	ci = commit -v
+    	ca = commit --amend
+[color]
+	ui = true
+[user]
+	name = Pedro Vereza
+	email = pdrvereza@gmail.com
+[core]
+	editor = /usr/bin/vim -c 'set spell spelllang=en'
+	excludesfile = /Users/pvereza/.gitignore_global

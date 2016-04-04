@@ -3,7 +3,8 @@
 	co = checkout
 	aa = add -A
 	ci = commit -v
-    	ca = commit --amend
+    ca = commit --amend
+    pr = pull --rebase
 [color]
 	ui = true
 [user]

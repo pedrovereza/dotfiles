@@ -1,0 +1,9 @@
+.DS_Store
+*.sw
+*.iml
+*.swp
+*.swn
+*.swo
+**/.idea/
+**/out/
+*.xcuserdatad

@@ -11,4 +11,4 @@
 	email = pdrvereza@gmail.com
 [core]
 	editor = /usr/bin/vim -c 'set spell spelllang=en'
-	excludesfile = /Users/pvereza/.gitignore_global
+	excludesfile = ~/dotfiles/external/.gitignore_global

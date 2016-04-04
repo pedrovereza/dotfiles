@@ -14,5 +14,7 @@ load () {
 	for dir in 'alias' 'completion' 'colors' 'tools' 'private'; do
 		_source_all_files_in $dir
 	done
+
+	cp ${DOTFILES_HOME}/external/.gitconfig ~/
 }
 

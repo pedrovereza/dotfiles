@@ -1,2 +1,3 @@
 alias countcommits="git log --color=always -z | perl -ln0e 'print unless /git-svn-id/' | grep 'commit' | wc -l | sed 's/ //g'"
 alias g="git"
+alias cleanrepo="git branch | grep -v 'master' | xargs git branch -D"

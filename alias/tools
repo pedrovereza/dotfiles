@@ -1,2 +1,4 @@
+alias unrar="unrar x"
+alias be="bundle exec"
 alias g="git"
 alias cleanrepo="git branch | grep -v 'master' | xargs git branch -D"

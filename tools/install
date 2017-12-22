@@ -14,7 +14,7 @@ _source() {
 
 _export_path /usr/local/bin
 _source tools/z/z.sh
-_export_path tools/giffy/
+_export_path ~/tools/giffy/
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh

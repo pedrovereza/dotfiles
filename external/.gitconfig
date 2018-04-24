@@ -1,15 +1,15 @@
 [alias]
-	st = status
-	co = checkout
-	aa = add -A
-	ci = commit -v
-    ca = commit --amend
-    pr = pull --rebase
+  st = status
+  co = checkout
+  aa = add -A
+  ci = commit -v
+  ca = commit --amend
+  pr = pull --rebase
 [color]
-	ui = true
+  ui = true
 [user]
-	name = Pedro Vereza
-	email = pdrvereza@gmail.com
+  name = Pedro Vereza
+  email = pdrvereza@gmail.com
 [core]
-	editor = /usr/bin/vim -c 'set spell spelllang=en'
-	excludesfile = ~/dotfiles/external/.gitignore_global
+  editor = /usr/bin/vim -c 'set spell spelllang=en'
+  excludesfile = ~/dotfiles/external/.gitignore_global

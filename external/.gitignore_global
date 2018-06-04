@@ -5,6 +5,7 @@
 *.swn
 *.swm
 *.swo
+*.swl
 **/.idea/
 **/out/
 *.xcuserdatad

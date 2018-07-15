@@ -9,3 +9,5 @@
 **/.idea/
 **/out/
 *.xcuserdatad
+*.xcworkspace
+**/Pods/

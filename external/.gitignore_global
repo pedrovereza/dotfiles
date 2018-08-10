@@ -11,3 +11,5 @@
 *.xcuserdatad
 *.xcworkspace
 **/Pods/
+
+**/node_modules/

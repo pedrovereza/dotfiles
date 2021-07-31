@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-DOTFILES_HOME=$(cd `dirname ${BASH_SOURCE[0]}`; pwd)
+DOTFILES_HOME="$HOME/dotfiles"
 PATH="$DOTFILES_HOME/bin:$PATH"
 
 source "$DOTFILES_HOME/lib/dotfiles"

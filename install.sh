@@ -1,15 +1,13 @@
-DOTFILES_HOME=$(cd `dirname ${BASH_SOURCE[0]}`; pwd)
+ZSHRC="$HOME/.zshrc"
+DOTFILES_INIT="$DOTFILES_HOME/dotfiles/init"
 
-BASH_PROFILE="$HOME/.bash_profile"
-DOTFILES_INIT="$DOTFILES_HOME/init"
-
-if [ ! -f $BASH_PROFILE ]; then
-	echo 'Creating .bash_profile file'
-	touch $BASH_PROFILE
+if [ ! -f $ZSHRC ]; then
+	echo 'Creating .zshrc file'
+	touch $ZSHRC
 fi
 
-if ! grep -Fq $DOTFILES_INIT $BASH_PROFILE; then
-	echo "source $DOTFILES_INIT" >> $BASH_PROFILE
+if ! grep -Fq $DOTFILES_INIT $ZSHRC; then
+	echo "source $DOTFILES_INIT" >> $ZSHRC
 fi
 
-source $BASH_PROFILE
+source $ZSHRC

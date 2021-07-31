@@ -1,12 +1,11 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-BASH_PROFILE="$HOME/.bash_profile"
 
 _source_all_files_in () {
 	CURRENT_DIR=${DOTFILES_HOME}/$1
 
 	for file in `find "$CURRENT_DIR" -type f`; do
-		source $file	
+		source $file
 	done
 }
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 _export_path() {
 	if [ -d "$1" ]; then
@@ -17,5 +17,3 @@ _source tools/z/z.sh
 _export_path ~/tools/giffy/
 _export_path ~/tools/lorem/
 
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
